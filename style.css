@@ -1,0 +1,116 @@
+.jumbotron {
+	/*margin-top: 50px;*/
+	padding: 200px 0;
+	text-align: center;
+	/*background: #63afc7 url('img/cook.jpg') center center no-repeat ;*/
+	background-size: 100% 600px;
+	/*color: white;*/
+}
+
+/*menu*/
+#menu {
+	
+}
+#menu ul {
+	/*list-style: none;*/
+	text-align: center;
+}
+#menu li {
+
+	/*padding: 10px 0;*/
+	border-bottom: 1px solid #D1D5D8;
+}
+#menu  #header-menu {
+	height: 50px;
+	background: #F7F8F8;
+	
+	font-size: 15px;
+	border-radius: 4px;
+	padding-top: 13px;
+	color: #787878;
+	border: 1px solid #e7e7e7;
+}
+
+.affix {
+        top: 60px;
+        margin-right: 200px;   
+}
+/*pagination*/
+.pagination a {
+	border-radius: 4px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/*footer*/
+#footer {
+	background: #1A1A1A;
+}
+.footer-list {
+	padding-top: 50px;
+}
+.footer-sublist {
+	list-style: none;
+	float: left;
+	margin-left: 50px;
+}
+.footer-sublist-header {
+	color: white;
+	font-weight: bold;
+    height: 24px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.footer-sublist-item a
+{
+	display: block;
+	color: #6D6D6D;
+	margin-bottom: 16px;
+}
+.separator {
+	border-bottom: 2px solid #262626;
+}
+.footer-license {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #6D6D6D;
+}
+/*taskbar-right*/
+.taskbar-right {
+	/*position: fixed;*/
+	float: right;
+}
+
+.badge-css {
+	font-weight: bold;
+	float: right;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	font-size: 15px;
+	width: 30px;
+	height: 30px;
+	background: #55C34D;
+	border-radius: 50%;
+}
+.btn {
+	width: 65px;
+}
+/*#icon*/
+#icon .fa {
+	bottom: 0;
+	position: relative;
+	transition: all 0.2s ease-in-out;
+}
+#icon .fa:hover{
+	bottom: 5px;
+	color: #337ab7; 
+}
