@@ -1,9 +1,10 @@
 .jumbotron {
 	/*margin-top: 50px;*/
-	padding: 200px 0;
+	/*padding: 200px 0;*/
+	height: 100vh;
 	text-align: center;
 	/*background: #63afc7 url('img/cook.jpg') center center no-repeat ;*/
-	background-size: 100% 600px;
+	/*background-size: 100% 600px;*/
 	/*color: white;*/
 }
 
@@ -33,7 +34,7 @@
 
 .affix {
         top: 60px;
-        margin-right: 200px;   
+        /*margin-right: 200px;  */ 
 }
 /*pagination*/
 .pagination a {
