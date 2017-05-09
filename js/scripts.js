@@ -24,7 +24,7 @@ $(document).ready(function() {
 	var totalArticles = 0;
 	$.ajax({
 	    type: "GET",
-	    url: "database.xml",
+	    url: "data.xml",
 	    dataType: "xml",
 	    success: function (xml) {
 
