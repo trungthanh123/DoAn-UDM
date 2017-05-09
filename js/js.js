@@ -1,8 +1,4 @@
-// $(document).ready(function(){
-//   $(".navbar-2").affix({
-//     offset: {top: 544}
-//   });
-// });
+
 
 var  affixElement = '#menu';
 $(document).ready(function(){
