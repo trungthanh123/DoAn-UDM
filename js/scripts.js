@@ -24,7 +24,7 @@ $(document).ready(function() {
 	var totalArticles = 0;
 	$.ajax({
 	    type: "GET",
-	    url: "database.xml",
+	    url: "data.xml",
 	    dataType: "xml",
 	    success: function (xml) {
 
@@ -33,7 +33,7 @@ $(document).ready(function() {
 	        $(xml).find('article').each(function(){
 	    
 				totalArticles++;
-	         	var image = $(this).find('image').text();
+	         	var image = $(this).find('image').text(); //lấy 'text' của thẻ 'image' trong file xml, this ở đây là thẻ article
 	         	var caption = $(this).find('caption').text();
 	         	var rating = $(this).find('rating').text();
 	         	var description = $(this).find('description').text();
@@ -62,18 +62,5 @@ $(document).ready(function() {
 			});
 	    }
 	})
-
-	
-
-
-
-
-
-
-
-
-
-
-
 
 })

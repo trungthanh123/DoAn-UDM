@@ -2,10 +2,41 @@
 	/*margin-top: 50px;*/
 	/*padding: 200px 0;*/
 	height: 100vh;
+
+	background: url('../img/background-restaurant.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%; /*responsive background*/
+	margin-bottom: 0px;
+	color: white;
+	/*padding-top: 250px;
+	min-width: 100%;
+	min-height: 100%;*/
+	/*position: relative; */
+}
+
+.jumbotron #content-jumbotron
+{
+	font-weight: bold;
+	font-size: 60px;
+	letter-spacing: 5px;
+	font-family: 'Pacifico', cursive, serif;
+	/*border-bottom: 2px solid #ffffff;*/
+	
+}
+.brand {
+	font-family: 'Pacifico', cursive, serif;
+	font-size: 25px;
+	color: #83D6DE;
+	letter-spacing: 1.5px;
+	padding-left: 20px;
+	padding-right: 30px;
+	line-height: 50px;
+}
+.jumbotron #header {
+	position: relative;
+	top: 50%; /*align the contents of this div vertically center*/
+	transform: translateY(-50%); /*align the contents of this div vertically center*/
 	text-align: center;
-	/*background: #63afc7 url('img/cook.jpg') center center no-repeat ;*/
-	/*background-size: 100% 600px;*/
-	/*color: white;*/
 }
 
 #pagination-demo{
@@ -23,6 +54,7 @@
   width: 100%;
   max-width: 660px;
 }
+
 /*menu*/
 #menu {
 	
@@ -38,7 +70,7 @@
 }
 #menu  #header-menu {
 	height: 50px;
-	background: #F7F8F8;
+	background: #DDDDDD;
 	
 	font-size: 15px;
 	border-radius: 4px;
@@ -99,6 +131,9 @@
 	padding-bottom: 40px;
 	color: #6D6D6D;
 }
+.footer-logo { 
+	text-align: center;
+}
 /*taskbar-right*/
 .taskbar-right {
 	/*position: fixed;*/
@@ -128,5 +163,16 @@
 }
 #icon .fa:hover{
 	bottom: 5px;
-	color: #337ab7; 
+	color: #83D6DE; 
+}
+
+/*thumbnail*/
+.thumbnail {
+	padding: 0px;
+	border: 0px solid;
+}
+
+#content {
+	background: #EEEDEE;
+	padding-top: 30px;
 }
