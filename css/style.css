@@ -70,13 +70,13 @@
 }
 #menu  #header-menu {
 	height: 50px;
-	background: #DDDDDD;
+	background: #83D6DE;
 	
 	font-size: 15px;
 	border-radius: 4px;
 	padding-top: 13px;
-	color: #787878;
-	border: 1px solid #e7e7e7;
+	color: white;
+	/*border: 1px solid #e7e7e7;*/
 }
 
 .affix {
@@ -169,10 +169,10 @@
 /*thumbnail*/
 .thumbnail {
 	padding: 0px;
-	border: 0px solid;
+	
 }
 
 #content {
-	background: #EEEDEE;
+	/*background: #EEEDEE;*/
 	padding-top: 30px;
 }
