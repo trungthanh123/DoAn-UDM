@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Josefin+Slab" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -46,45 +46,111 @@
     </div>
   </nav> <!-- ./navbar -->
   
-  
-  <div class="jumbotron" id="top">
-    <div id="header">
-      <h1 style="font-family: 'Josefin Slab', serif; font-size: 90px;">welcome</h1> 
-      <p id="content-jumbotron">Foodon</p>
-      <p style="font-family: 'Josefin Slab', serif; font-size: 30px;">Ready to be opened</p>
-    </div>
-  </div> <!-- ./jumbotron -->
-  
-  <div id="content">
+  <div id="content2">
     <div class="container">
       <div class="row">
         <nav id="menu" class="col-md-2">      
               <ul class="nav nav-pills nav-stacked" > 
                 <li id="header-menu">DANH MỤC</li>
-                <li><a href="#section2">Khuyến mãi</a></li>
-                <li><a href="#section3">Đồ uống</a></li>
-                <li><a href="#section3">Ăn vặt</a></li>
-                <li><a href="#section3">Giao hàng</a></li>
+                <li><a href="#information">Thông tin</a></li>
+                <li><a href="#videos">Ảnh &amp; video</a></li>
+                <li><a href="#section3">Bình luận</a></li>
+                <li><a href="#google-map">Bản đồ</a></li>
               </ul>     
         </nav>
-        <!-- </div> -->
+        
+        <div class="col-md-10 right-content">
 
-        <div class="col-md-9 col-md-offset-1 taskbar-right">
-          
-           
-          <div id="homepage-view" class="homepage-view">
-            
-              
-          </div> <!-- ./homepageview -->
-          <div class="row">
-            <div class="col-md-6 col-md-offset-4">
+          <div class="row" style="background: white;">
+            <div class="col-md-6 information" id="information">
+              <img src="img/detail.jpg" alt="">
+            </div>
+            <div class="col-md-6">             
+              <h4><span class="fa fa-check-circle"></span>  Food House Restaurant - Nam Kỳ Khởi Nghĩa</h1>
+              <div class="rating">
+                <div class="">
+                  <span class="rating-point">7.5</span>
+                  <p class="rating-content">Vị trí</p>
+                </div>
+                <div class="">
+                  <span class="rating-point">7.5</span>
+                  <p class="rating-content">Không gian</p>
+                </div>
+                <div class="">
+                  <span class="rating-point">7.5</span>
+                  <p class="rating-content">Chất lượng</p>
+                </div>
+                <div class="">
+                  <span class="rating-point">7.5</span>
+                  <p class="rating-content">Giá cả</p>
+                </div>
+                <div class="">
+                  <span class="rating-point">7.5</span>
+                  <p class="rating-content">Phục vụ</p>
+                </div>
+              </div> <!-- /rating -->
+              <div class="information-end">
+                <div class="">
+                  <span class="fa fa-location-arrow"><span>  171 Nam Kỳ Khởi Nghĩa, P. 6, Quận 3, TP. HCM</span></span>
+                </div>
+                <div class="">
+                  <span class="fa fa-tag"><span>  30.000đ - 100.000đ</span></span>
+                </div>
+                <div class="">
+                  <span class="fa fa-clock-o"><span>  Giờ mở cửa: 09:00 - 22:00</span></span>
+                </div>
+              </div>
+            </div>
+          </div> <!-- /row1 -->
 
-            <ul id="pagination-demo" class="pagination-sm"></ul>
-          </div>
+          <div class="videos" id="videos">
+            <div class="row" style="background: white;">
+              <div class="col-md-12">
+                <h4>Videos</h4>
+              </div>
+              <div class="col-md-12">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uHOVrAUMiS0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div> <!-- /videos -->
+
+          <div class="pictures">
+            <div class="row" style="background: white;">
+              <h4 class="col-md-12">Hình ảnh</h4>
+              <div class="col-md-12">
+                <img src="img/1.jpg" alt="">
+                <img src="img/2.jpg" alt="">
+                <img src="img/3.jpg" alt="">
+                <img src="img/4.jpg" alt="">
+                <img src="img/5.jpg" alt="">              
+              </div>
+            </div>
+            <div class="row" style="background: white;">
+              <div class="col-md-12">
+                <img src="img/6.jpg" alt="">
+                <img src="img/7.jpg" alt="">
+                <img src="img/8.jpg" alt="">
+                <img src="img/9.jpg" alt="">
+                <img src="img/10.jpg" alt="">              
+              </div>
+            </div>
+          </div> <!-- /pictures -->
+
+          <div class="google-map" id="google-map">
+            <div class="row" style="background: white;">
+              <div class="col-md-12">
+                <h4>Thông tin và bản đồ</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3425141126804!2d106.68661931419334!3d10.785057261984903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f320ffcd351%3A0x4bd15d20bdeca459!2sFoodhouse!5e0!3m2!1svi!2s!4v1495210096087" width="100%" height="450" frameborder="0" style="border:0; padding-bottom: 5px;" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div> <!-- /google-map -->
+
         </div>
       </div>
     </div>
-  </div> <!-- ./content -->
+  </div> <!-- ./content2 -->
+
+  
 
   <div id="footer">
     <div class="container">
@@ -144,5 +210,6 @@
   <script src="js/js.js"></script>
   <script src="js/scripts.js"></script>
   <script src="js/data.js"></script>
+  
 </body>
 </html>
