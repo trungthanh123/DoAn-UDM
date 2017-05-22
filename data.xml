@@ -1,69 +1,146 @@
 <?xml version='1.0' ?>
 <doc>
 	<article>
+		<id>1</id>
 		<image>img/beef.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>2</id>
 		<image>img/beef.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>3</id>
 		<image>img/beef.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>4</id>
 		<image>img/beef.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>5</id>
 		<image>img/food.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>6</id>
 		<image>img/food.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>1</id>
 		<image>img/food.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>7</id>
 		<image>img/food.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>8</id>
 		<image>img/tre.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>9</id>
 		<image>img/tre.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 	<article>
+		<id>10</id>
 		<image>img/tre.jpg</image>
 		<caption>Thumbnail label</caption>
 		<rating>9.9</rating>
 		<description>Delicious!</description>
+		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
+		<img1>img/1.jpg</img1>
+		<img2>img/2.jpg</img2>
+		<img3>img/3.jpg</img3>
+		<img4>img/4.jpg</img4>
+		<img5>img/5.jpg</img5>
 	</article>
 </doc>

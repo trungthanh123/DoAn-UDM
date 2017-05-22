@@ -9,7 +9,7 @@ function articlePerPage(arr, page) {
 	for(let i = start; i < finish; i++) {
 		$("#homepage-view" ).append('<div class="col-md-4">\
         <div class="thumbnail">\
-          <img id="article-img" src="'+ arr[i].image +'">\
+          <a href="/DoAn-UDM/detail.html?id=' + arr[i].id + '"><img id="article-img" src="'+ arr[i].image +'"></a>\
           <div class="caption">\
             <h3>'+ arr[i].caption +'<div class="badge-css price">' + arr[1].rating +'</div></h3>\
             <p>'+ arr[i].description +'</p>\
@@ -37,20 +37,19 @@ $(document).ready(function() {
 	         	var caption = $(this).find('caption').text();
 	         	var rating = $(this).find('rating').text();
 	         	var description = $(this).find('description').text();
-
+	         	var id = $(this).find('id').text();
 	         	var obj = {};
-
+	         	obj["id"] = id;
 	         	obj["image"] = image;
 	         	obj["rating"] = rating;
 	         	obj["caption"] = caption;
 	         	obj["description"] = description;
 
-
 	         	arr.push(obj);
 
-	         	
 				
 	        });
+	        console.log(arr);
 			$('#pagination-demo').twbsPagination({
 			        totalPages: (totalArticles/6).toFixed(0),
 			        visiblePages: 3,
@@ -64,3 +63,22 @@ $(document).ready(function() {
 	})
 
 })
+
+
+
+
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
