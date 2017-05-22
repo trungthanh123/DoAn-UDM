@@ -34,7 +34,7 @@
 
 /*menu*/
 #menu {
-	
+
 }
 #menu ul {
 	/*list-style: none;*/
@@ -48,7 +48,7 @@
 #menu  #header-menu {
 	height: 50px;
 	background: #83D6DE;
-	
+
 	font-size: 15px;
 	border-radius: 4px;
 	padding-top: 13px;
@@ -59,7 +59,7 @@
 .affix {
         top: 60px;
         width: 165px;
-        /*margin-right: 200px;  */ 
+        /*margin-right: 200px;  */
 }
 /*pagination*/
 .pagination a {
@@ -109,7 +109,7 @@
 	padding-bottom: 40px;
 	color: #6D6D6D;
 }
-.footer-logo { 
+.footer-logo {
 	text-align: center;
 	padding-top: 50px;
 }
@@ -142,13 +142,13 @@
 }
 #icon .fa:hover{
 	bottom: 5px;
-	color: #83D6DE; 
+	color: #83D6DE;
 }
 
 /*thumbnail*/
 .thumbnail {
 	padding: 0px;
-	
+
 }
 #content2 {
 	background: #EEEDEE;
@@ -161,12 +161,12 @@
 
 .information{
 	/*width: 100%,*/
-	
+
 	padding: 0;
 }
 .information-end div span{
-	
-	line-height: 25px;
+
+	line-height: 3;
 	font-size: 16px;
 }
 

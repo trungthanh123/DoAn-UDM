@@ -7,7 +7,7 @@ $(document).ready(function(){
       top: function () {
         return ( this.top = $(affixElement).offset().top)
       },
-      bottom: function () { 
+      bottom: function () {
         return (this.bottom = $('#footer').outerHeight(true))
       }
     }
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   // Add scrollspy to <body>
-  $('body').scrollspy({target: ".navbar", offset: 50});   
+  $('body').scrollspy({target: ".navbar", offset: 50});
 
   // Add smooth scrolling on all links inside the navbar
   $("#myNavbar a").on('click', function(event) {
@@ -35,7 +35,7 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top - 40
       }, 800, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
@@ -55,7 +55,7 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top - 50
       }, 800, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
