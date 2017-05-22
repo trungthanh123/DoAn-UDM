@@ -21,7 +21,7 @@
 	letter-spacing: 5px;
 	font-family: 'Pacifico', cursive, serif;
 	/*border-bottom: 2px solid #ffffff;*/
-	
+
 }
 .brand {
 	font-family: 'Pacifico', cursive, serif;
@@ -57,7 +57,7 @@
 
 /*menu*/
 #menu {
-	
+
 }
 #menu ul {
 	/*list-style: none;*/
@@ -71,7 +71,7 @@
 #menu  #header-menu {
 	height: 50px;
 	background: #83D6DE;
-	
+
 	font-size: 15px;
 	border-radius: 4px;
 	padding-top: 13px;
@@ -131,7 +131,7 @@
 	padding-bottom: 40px;
 	color: #6D6D6D;
 }
-.footer-logo { 
+.footer-logo {
 	text-align: center;
 	padding-top: 50px;
 	/*position: relative;
@@ -142,7 +142,7 @@
 
 /*taskbar-right*/
 .taskbar-right {
-	
+
 	float: right;
 }
 
@@ -169,22 +169,30 @@
 }
 #icon .fa:hover{
 	bottom: 5px;
-	color: #83D6DE; 
+	color: #83D6DE;
 }
 
 /*thumbnail*/
 .thumbnail {
 	padding: 0px;
 	transition: 0.3s;
-	
+
 }
 .thumbnail:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #content {
 	/*background: #EEEDEE;*/
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
+.btn-sort {
+	width: 90px;
 
+	float:right;
+	margin: 0 10px 10px 0;
 
+}
+/*.btn-sort:hover {
+	background: #5cb85c;
+}*/
