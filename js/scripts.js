@@ -61,7 +61,7 @@ $(document).ready(function() {
 			});
 	    }
 	})
-
+	
 	$(".btn").click(function(){
         searchCourses($('#search').val());
     }); 
@@ -71,15 +71,32 @@ $(document).ready(function() {
 
 function isMatch(str1, str2) {
 
+	str1 = changeAlias(str1);
+	str2 = changeAlias(str2);
 	
-    var str = str1; 
-    var patt1 = new RegExp(str2, "g");
-    var result = str.match(patt1);
-    if(result)
-    	return true;
-    return false;
+
+
+	var res = str1.search(str2)
+    
+   	if(res >= 0) 
+   		return true;
+   	return false;
 }
 
+function changeAlias(alias) {
+	var str = alias;
+	str= str.toLowerCase();
+	str= str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,"a");
+	str= str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g,"e");
+	str= str.replace(/ì|í|ị|ỉ|ĩ/g,"i");
+	str= str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g,"o");
+	str= str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g,"u");
+	str= str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g,"y");
+	str= str.replace(/đ/g,"d");
+	str= str.replace(/!|@|\$|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\'||\"|\&|\#|\[|\]|~/g,"");
+
+	return str;
+}
 
 function searchCourses(str) {
 
@@ -121,21 +138,27 @@ function searchCourses(str) {
 
 
 	        });
+	        if(arr.length > 0) {
+	        	$("#homepage-view").empty();
+	        	$("#pagination-demo").empty();
 
-        	$("#homepage-view" ).empty();
+	            for(let i = 0; i < arr.length; i++) {
+					$("#homepage-view" ).append('<div class="col-md-4">\
+			        <div class="thumbnail">\
+			          <a href="/DoAn-UDM/detail.html?id=' + arr[i].id + '"><img id="article-img" src="'+ arr[i].image +'"></a>\
+			          <div class="caption">\
+			            <h3>'+ arr[i].caption +'<div class="badge-css price">' + arr[i].rating +'</div></h3>\
+			            <p><i class="fa fa-money" aria-hidden="true"></i>'+ arr[i].description +'</p>\
+			            <p><a href="#" class="btn btn-primary" role="button">ĐẶT</a> <a href="#" class="btn btn-default" role="button">LƯU</a></p>\
+			          </div>\
+			        </div>\
+			      </div>');
+				}
+			} else {
+				$("#homepage-view").empty();
+	        	$("#pagination-demo").empty();
+				$("#homepage-view" ).append('<h1 class="sf">Currently No List To Display!</h1>');
 
-
-            for(let i = 0; i < arr.length; i++) {
-				$("#homepage-view" ).append('<div class="col-md-4">\
-		        <div class="thumbnail">\
-		          <a href="/DoAn-UDM/detail.html?id=' + arr[i].id + '"><img id="article-img" src="'+ arr[i].image +'"></a>\
-		          <div class="caption">\
-		            <h3>'+ arr[i].caption +'<div class="badge-css price">' + arr[i].rating +'</div></h3>\
-		            <p><i class="fa fa-money" aria-hidden="true"></i>'+ arr[i].description +'</p>\
-		            <p><a href="#" class="btn btn-primary" role="button">ĐẶT</a> <a href="#" class="btn btn-default" role="button">LƯU</a></p>\
-		          </div>\
-		        </div>\
-		      </div>');
 			}
 		}
 	});
