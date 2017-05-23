@@ -12,9 +12,7 @@ $(document).ready(function(){
       }
     }
   });
-}); //./ready
-
-
+});
 
 $(document).ready(function(){
   // Add scrollspy to <body>

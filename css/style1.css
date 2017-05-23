@@ -48,7 +48,6 @@
 #menu  #header-menu {
 	height: 50px;
 	background: #83D6DE;
-
 	font-size: 15px;
 	border-radius: 4px;
 	padding-top: 13px;
@@ -198,6 +197,9 @@
 .pictures, .videos, .google-map {
 	margin-top: 20px;
 }
+/*.google-map {
+	margin-bottom: 50px;
+}*/
 .pictures img {
 	margin-right: 5px;
 	margin-bottom: 10px;
