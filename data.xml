@@ -6,7 +6,7 @@
 		<image>img/beef.jpg</image>
 		<caption>Bò Nướng</caption>
 		<rating>7.0</rating>
-		<description> 50.000</description>
+		<description>50000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
@@ -20,7 +20,7 @@
 		<image>img/boBitTet.jpg</image>
 		<caption>Bò Bít Tết</caption>
 		<rating>8.0</rating>
-		<description> 100.000</description>
+		<description>100000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
@@ -34,7 +34,7 @@
 		<image>img/lauBo.jpg</image>
 		<caption>Lẩu Bò</caption>
 		<rating>6.5</rating>
-		<description> 80.000</description>
+		<description>80000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
@@ -47,7 +47,7 @@
 		<image>img/food.jpg</image>
 		<caption>Bò Thập Cẩm</caption>
 		<rating>7.3</rating>
-		<description> 150.000</description>
+		<description>150000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
@@ -61,7 +61,7 @@
 		<image>img/miCay.jpg</image>
 		<caption>Mì Cay</caption>
 		<rating>9.0</rating>
-		<description> 35.000</description>
+		<description>35000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
@@ -74,7 +74,7 @@
 		<image>img/cheKhucBach.jpg</image>
 		<caption>Chè Khúc Bạch</caption>
 		<rating>7.9</rating>
-		<description> 15.000</description>
+		<description>15000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
@@ -87,7 +87,7 @@
 		<image>img/cheNamBo.jpg</image>
 		<caption>Chè Nam Bộ</caption>
 		<rating>10</rating>
-		<description> 10.000</description>
+		<description>10000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
@@ -100,7 +100,7 @@
 		<image>img/traSua.jpg</image>
 		<caption>Trà Sữa</caption>
 		<rating>5.5</rating>
-		<description> 17.000</description>
+		<description>17000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
@@ -113,7 +113,7 @@
 		<image>img/che.jpg</image>
 		<caption>Chè Thái</caption>
 		<rating>7.8</rating>
-		<description> 15.000</description>
+		<description>13000</description>
 		<embededvideo>https://www.youtube.com/embed/uHOVrAUMiS0</embededvideo>
 		<img1>img/1.jpg</img1>
 		<img2>img/2.jpg</img2>
