@@ -1,17 +1,37 @@
-.jumbotron {
-	/*margin-top: 50px;*/
-	/*padding: 200px 0;*/
-	height: 100vh;
+/*@media (max-width: 768px) {
+	#menu {
+		display: none;
+	}
+	.thumbnail {
+		width: 50% !important;
+	}
 
+}*/
+
+#suggestionsList {
+	display: none;
+	list-style-type: none;
+	position: absolute;
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 1.5;
+	background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#suggestionsList li {
+	cursor: pointer;
+	border-bottom: 1px solid #D1D5D8;
+	
+}
+
+.jumbotron {
+	height: 100vh;
 	background: url('../img/background-restaurant.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%; /*responsive background*/
 	margin-bottom: 0px;
 	color: white;
-	/*padding-top: 250px;
-	min-width: 100%;
-	min-height: 100%;*/
-	/*position: relative; */
 }
 
 .jumbotron #content-jumbotron
@@ -20,8 +40,6 @@
 	font-size: 60px;
 	letter-spacing: 5px;
 	font-family: 'Pacifico', cursive, serif;
-	/*border-bottom: 2px solid #ffffff;*/
-
 }
 .brand {
 	font-family: 'Pacifico', cursive, serif;
@@ -57,21 +75,17 @@
 
 /*menu*/
 #menu {
-
 }
 #menu ul {
 	/*list-style: none;*/
 	text-align: center;
 }
 #menu li {
-
-	/*padding: 10px 0;*/
 	border-bottom: 1px solid #D1D5D8;
 }
 #menu  #header-menu {
 	height: 50px;
 	background: #83D6DE;
-
 	font-size: 15px;
 	border-radius: 4px;
 	padding-top: 13px;
@@ -82,6 +96,12 @@
 .affix {
         top: 60px;
         width: 165px;
+}
+.affix-top {
+	width: 165px;
+}
+.affix-bottom {
+	width: 165px;
 }
 /*pagination*/
 .pagination a {
@@ -134,15 +154,10 @@
 .footer-logo {
 	text-align: center;
 	padding-top: 50px;
-	/*position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);*/
 }
 
 /*taskbar-right*/
 .taskbar-right {
-
 	float: right;
 }
 
@@ -176,10 +191,12 @@
 .thumbnail {
 	padding: 0px;
 	transition: 0.3s;
-
+	position: relative;
+	bottom: 0;
 }
 .thumbnail:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	bottom: 3px;
 }
 #content {
 	/*background: #EEEDEE;*/

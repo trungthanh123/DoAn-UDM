@@ -59,6 +59,12 @@
         top: 60px;
         width: 165px;
 }
+.affix-top {
+	width: 165px;
+}
+.affix-bottom {
+	width: 165px;
+}
 /*pagination*/
 .pagination a {
 	border-radius: 4px;

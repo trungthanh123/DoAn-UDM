@@ -62,6 +62,7 @@ $(document).ready(function() {
 
 	$(".btn-search").click(function(){
         searchCourses($('#search').val());
+        $('#suggestionsList').css("display", "none");
   });
 
   $("#sort-up").click(function(){

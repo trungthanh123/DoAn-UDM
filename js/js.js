@@ -1,5 +1,3 @@
-
-
 var  affixElement = '#menu';
 $(document).ready(function(){
   $(affixElement).affix({
@@ -100,5 +98,35 @@ $(document).ready(function(){
     }  // End if
   });
 
-
 });
+function displaySuggestions() {
+  
+    var filter, ul, li, i;
+    
+    filter = $("#search").val().toUpperCase();
+    if(filter != "") $("#suggestionsList").css("display","block");
+    else $("#suggestionsList").css("display","none");
+    
+    ul = document.getElementById("suggestionsList");
+    li = ul.getElementsByTagName("li");
+    
+    for (i = 0; i < li.length; i++) {
+        // a = li[i].getElementsByTagName("a")[0];
+        if (li[i].innerHTML.toUpperCase().indexOf(filter) > -1) {         
+            li[i].style.display = "";
+            console.log(li[i].innerHTML);
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+$(document).ready( function() {
+  $("#suggestionsList li").click(function() {
+    var store = $(this).text();
+    $("#search").val(store);
+  });
+  $("#suggestionsList").css({
+    'width': ($('#search').outerWidth() + 'px')
+  });
+})

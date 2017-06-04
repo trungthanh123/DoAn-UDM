@@ -34,15 +34,26 @@
         </ul>
         <div class="navbar-form navbar-right">
           <div class="input-group">
-            <input type="text" id="search" class="form-control" placeholder="Search">
+            <input type="text" id="search" class="form-control" placeholder="Search" onkeyup="displaySuggestions()">
             <div class="input-group-btn" id="btn-search">
               <a href="#content">
               <button  class="btn btn-default btn-search">
                 <i class="glyphicon glyphicon-search"></i>
               </button>
               </a>
-            </div>
+            </div>          
           </div>
+          <ul id="suggestionsList">
+            <li >Bò Nướng</li>
+            <li >Bò Thập Cẩm</li>
+            <li >Mì Cay</li>
+            <li >Bò Bít Tết</li>
+            <li >Lẩu Bò</li>
+            <li >Chè Khúc Bạch</li>
+            <li >Chè Nam Bộ</li>
+            <li >Trà Sữa</li>
+            <li >Chè Thái</li>
+          </ul>
         </div>
       </div>
     </div>
